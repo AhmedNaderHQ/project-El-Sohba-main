@@ -1,0 +1,11 @@
+function myFunction() {
+    var x = document.getElementById("floatingInputPassword");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+
+
+
